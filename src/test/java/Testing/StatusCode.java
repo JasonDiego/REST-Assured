@@ -1,9 +1,6 @@
 package Testing;
 
-import static org.junit.Assert.*;
-
 import org.junit.Test;
-
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
@@ -13,8 +10,7 @@ public class StatusCode {
 	public void test() {
 		given().
 		when().
-			//get("https://www.swapi.co/api/vehicles/").
-			get("https://swapi.co/api/planets/1/").
+			get("https://www.swapi.co/api/vehicles/").
 		then().
 			assertThat().
 			statusCode(200);

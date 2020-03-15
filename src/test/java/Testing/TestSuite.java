@@ -5,7 +5,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({ StatusCode.class })
+@SuiteClasses({ StatusCode.class, Name.class })
 public class TestSuite {
 
 }
