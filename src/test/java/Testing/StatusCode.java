@@ -2,7 +2,6 @@ package Testing;
 
 import org.junit.Test;
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
 public class StatusCode {
 
