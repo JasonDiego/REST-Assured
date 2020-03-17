@@ -4,10 +4,10 @@ import org.junit.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class Stats {
+public class TestStats {
 
 	@Test
-	public void test1() {
+	public void testVehicle18Stats() {
 		given().
 		when().
 			get("https://www.swapi.co/api/vehicles/18/").
@@ -21,7 +21,7 @@ public class Stats {
 	}
 	
 	@Test
-	public void test2() {
+	public void testVehicle19Stats() {
 		given().
 		when().
 			get("https://www.swapi.co/api/vehicles/19/").
@@ -35,7 +35,7 @@ public class Stats {
 	}
 	
 	@Test
-	public void test3() {
+	public void testVehicle20Stats() {
 		given().
 		when().
 			get("https://www.swapi.co/api/vehicles/20/").
